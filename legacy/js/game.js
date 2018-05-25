@@ -32,7 +32,7 @@ function init() {
 	// Initialise the local player
 	localPlayer = new Player(startX, startY);
 
-	socket = new WebSocket("ws://localhost:9000/ws");
+	socket = new WebSocket("http://localhost:9000");
 
 	remotePlayers = [];
 
